@@ -8,11 +8,11 @@
 
 快速开始
 -------------
- > - 1 配置ACCESS_KEY和ACCESS_SECRET
+1. 配置ACCESS_KEY和ACCESS_SECRET
  > 
  登陆亦云视频, 在开发者支持页面查询ACCESS_KEY和ACCESS_SECRET, 然后配置到demo的utils/cal_sign.php中。
 
- > - 2 配置callback url
+2. 配置callback url
 > 
 demo中默认的callback url为"callback.php"
 >
