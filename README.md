@@ -1,7 +1,13 @@
 基本说明
-本demo有两个目的：1.使用亦云视频的组件，进行html5断点续传。2.监听亦云视频的回调，实现个性化的功能。
+===================
+本demo有两个目的：
+  > - 使用亦云视频的组件，进行html5断点续传。
+  > - 监听亦云视频的回调，实现个性化的功能。
+
+----------
 
 快速开始
+-------------
 1 配置ACCESS_KEY和ACCESS_SECRET
 登陆亦云视频, 在开发者支持页面查询ACCESS_KEY和ACCESS_SECRET, 然后配置到demo的utils/cal_sign.php中。
 
@@ -12,9 +18,11 @@ demo中默认的callback url为"callback.php"
 如果没有配置callback url, 你也可以正常使用断点续传功能，并能在亦云视频访问到你上传的视频。）
 
 使用说明
+-------------
 用浏览器访问index.php，点击“浏览文件”，选择视频，然后点击“上传”。
 
 文档组织
+-------------
 
 http5WithPHP
   |
@@ -43,6 +51,6 @@ http5WithPHP
   |
   |--index.php							首页
   |
-  |--upload.php                         上传页面
+  |--upload.php                                              上传页面
   |
-  |--Readme.txt							本文档
+  |--README.md					     本文档
