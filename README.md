@@ -56,7 +56,7 @@ http5WithPHP
   |
   |--index.php							首页
   |
-  |--upload.php             上传页面
+  |--upload.php                上传页面
   |
   |--README.md					    本文档
 ```
