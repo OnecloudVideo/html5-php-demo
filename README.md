@@ -9,12 +9,12 @@
 快速开始
 -------------
  > -1 配置ACCESS_KEY和ACCESS_SECRET
-登陆亦云视频, 在开发者支持页面查询ACCESS_KEY和ACCESS_SECRET, 然后配置到demo的utils/cal_sign.php中。
+ > 登陆亦云视频, 在开发者支持页面查询ACCESS_KEY和ACCESS_SECRET, 然后配置到demo的utils/cal_sign.php中。
 
  > -2 配置callback url
-demo中默认的callback url为"callback.php"
-登陆亦云视频, 在开发者支持页面填写callback url, 格式为http://域名/callback.php。
-（注意：如果要使用亦云视频的回调功能，必须要确保域名在Internet上是可以访问的。请用浏览器访问callback url是否正常。
+> demo中默认的callback url为"callback.php"
+> 登陆亦云视频, 在开发者支持页面填写callback url, 格式为http://域名/callback.php。
+>（注意：如果要使用亦云视频的回调功能，必须要确保域名在Internet上是可以访问的。请用浏览器访问callback url是否正常。
 如果没有配置callback url, 你也可以正常使用断点续传功能，并能在亦云视频访问到你上传的视频。）
 
 使用说明
@@ -24,7 +24,7 @@ demo中默认的callback url为"callback.php"
 文档组织
 -------------
 ### 
-http5WithPHP
+> http5WithPHP
   |
   |--static
   |    |
