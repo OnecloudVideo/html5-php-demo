@@ -6,7 +6,7 @@
  * TODO 接受回调的页面应该同时处理转码失败时的回调，以下代码只处理了转码成功时的回调。
  */
 /*
- * 计算判断是否是亦云视频回调的地址，如果没有 sign 或者 sign 不对，则认为不是，返回 "error"
+ * 计算判断是否是鸿瑞云视频回调的地址，如果没有 sign 或者 sign 不对，则认为不是，返回 "error"
  */
 $signInUrl = $_REQUEST ["sign"];
 if (! isset ( $signInUrl )) {
