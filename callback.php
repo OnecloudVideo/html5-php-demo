@@ -47,7 +47,7 @@ foreach ( $embedCodes as $code ) {
 }
 
 /*
- * 按照亦云视频的要求，返回yes表明已经收到回调。
+ * 按照鸿瑞云视频的要求，返回yes表明已经收到回调。
  */
 echo "yes";
 ?>
