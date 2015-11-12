@@ -89,13 +89,13 @@ var VideoUpload = (function($) {
 		}
 	}; // end of settings
 
-	// 亦云视频的域名
+	// 鸿瑞云视频的域名
 	var videoApiDomain = "https://video.pispower.com";
 
 	// 默认配置, 不可修改
 	var defaultSettings = {
 
-		// 亦云视频断点续传的restful api
+		// 鸿瑞云视频断点续传的restful api
 		// 查询文件是否已经初始化
 		listUrl : videoApiDomain + "/video/multipartUpload/list.api",
 
@@ -108,7 +108,7 @@ var VideoUpload = (function($) {
 		// 查询已经上传成功的文件分块
 		getPartsUrl : videoApiDomain + "/video/multipartUpload/getParts.api",
 
-		// 上传完成, 通知亦云视频合并文件
+		// 上传完成, 通知鸿瑞云视频合并文件
 		completeUrl : videoApiDomain + "/video/multipartUpload/complete.api",
 
 		// 删除错误文件分片
@@ -403,7 +403,7 @@ var VideoUpload = (function($) {
 	}
 
 	/**
-	 * 文件分块信息对象，记录文件分块的序号和md5值。 根据亦云视频断点续传的api, 每上传完一个文件分块,
+	 * 文件分块信息对象，记录文件分块的序号和md5值。 根据鸿瑞云视频断点续传的api, 每上传完一个文件分块,
 	 * 即会返回一个partKey和partMD5用以标识这个分块和验证上传的文件分块是否正确。 但并不会返回这个分块的序号,
 	 * 因此用户需要自己记录分块的序号。同时，上传成功后，要记录这个分块的partKey。
 	 */
